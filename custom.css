@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
+.main {
+    width: 100%;
+    height: 100vh;
+    background: url('./peakpx.jpg') center center;
+    background-size: cover;
+
+}
+
+.ov {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(81, 81, 81, 0.499);
+}
+
+.title {
+    margin-top: 10px;
+    color: white;
+    text-align: center;
+    font-size: 2.5rem;
+}
+
+.btn {
+    text-align: center;
+    margin: 22% 5%;
+    width: 40%;
+    padding: 4%;
+    
+    
+
+}
+#sr{
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+.col {
+    margin: 15%;
+}
+
+.title {
+    color: rgb(1, 203, 176);
+    font-weight: 550;
+    text-shadow: 5px 5px 6px rgba(235, 255, 253, 0.354);
+
+}
+#end-date {
+   
+}
+#top {
+    margin-top: 5%;
+}
+
+#bottom{
+    /* background: #ff6d6d; */
+    display : flex;
+    /* background-color: red; */
+    margin: 0% 30%;
+    margin-bottom: 10%;
+    width: 65%;
+    height: 60%;
+
+}
+
+.footer{
+    /* background-color: aqua; */
+
+}
+.box {
+    width: 43%;
+    height: 70px;
+    font-size: 4em;
+    border: 5px rgb(13, 13, 13) solid;
+}
